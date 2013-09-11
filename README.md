@@ -1,10 +1,10 @@
 ## oly-scribe
 
-is a quick and dirty order entry helper for the play by email game Olympia ([http://www.pbm.com/oly/](http://www.pbm.com/oly/ "Olympa PBEM")). 
+is a quick and dirty order entry helper for the play by email game Olympia ([http://www.pbm.com/oly/](http://www.pbm.com/oly/ "Olympa PBEM")). As this program has been frankensteined from some python libs in a super quick manner, dont expect it to be perfect in matters of code and functionality. But it did its job very well.  At last, no more need to memorize these terrible game order codes! 
 
 ###Software requirements
-It has been developed for the game *Olympia G3* and Python 2.7x, but should be easily adaptable for other flavours of the game like *Olympia: The Age of Gods (TAG)* 
-Note that this program is a super fast hack - however, the users of this program found it to be a nice tool for order entry. At last, no more need to memorize these terrible game order codes!
+It has been developed for the game *Olympia G3* and Python 2.7x, but should be easily adaptable for other flavours of the game like *Olympia: The Age of Gods (TAG)*. 
+
 
 ###Features
 The program has two main features: 
@@ -32,7 +32,5 @@ After hitting *transcibe*, these are translated into Olympia order language. You
 It is also possible to transcribe noble names into IDs. However, these must be present in the *olyG3_transcribedata.py* dictionary.
 
 ###Licence 
-
-As this program has been frankensteined from some python libs in a super quick manner, dont expect it to be perfect in matters of code and functionality. But it did its job very well. 
 
 It is free as that air that we breathe - but check the python licence ([http://docs.python.org/2/license.html](http://docs.python.org/2/license.html "Python license")) to be 100% sure. Hack away! (:
