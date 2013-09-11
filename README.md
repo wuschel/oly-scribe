@@ -9,7 +9,7 @@ It has been developed for the game *Olympia G3* and Python 2.7x, but should be e
 ###Features
 The program has two main features: 
 
-- entry game orders in *semi-human language* with the help of a **autocompletion** function
+- entry game orders in *semi-human language* with the help of a **autocompletion** function. Hit *space* to autocomplete a word.
 - **transcribe** the entered orders to Olympia order format 
 
 Example: 
