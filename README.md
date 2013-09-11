@@ -3,7 +3,8 @@
 is a quick and dirty order entry helper for the play by email game Olympia ([http://www.pbm.com/oly/](http://www.pbm.com/oly/ "Olympa PBEM")). 
 
 ###Software requirements
-It has been developed for the game *Olympia G3* and Python 2.7x, but should be easily adaptable for other flavours of the game like *Olympia: The Age of Gods (TAG)*  
+It has been developed for the game *Olympia G3* and Python 2.7x, but should be easily adaptable for other flavours of the game like *Olympia: The Age of Gods (TAG)* 
+Note that this program is a super fast hack - as such it has some quirks. However, the users of this program found it to be a nice tool for order entry. At last, no more need to memorize these terrible game order codes!
 
 ###Features
 The program has two main features: 
