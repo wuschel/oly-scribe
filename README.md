@@ -29,7 +29,7 @@ After hitting *transcibe*, these are translated into Olympia order language. You
     breed 271 271   
     move n  
 
-It is also possible to transcribe noble names into IDs. However, these must be present in the *olyG3_transcribedata.py* dictionary.
+It is also possible to transcribe noble names into IDs. However, these must be present in the *olyG3_transcribedata.py* dictionary. **Note:** It is advised to delete the old noble names from the dictionary.
 
 ###Licence 
 
