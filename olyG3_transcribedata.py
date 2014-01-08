@@ -1,12 +1,11 @@
-dictionary_version = ["Olympia G3", "Dictionary of turn #59"]
+dictionary_version = ["Olympia G4", "Dictionary of turn #1"]
 
 # there is still the problem with "wood" beeing converted to 77, while still beeing a skill. use COLLECT!
 
 # need to update the whole dict once in a while.. nobles, etc.
 # also, 401, 402,403 have been added and not added to the main dictionary yet.
 
-aliaslist = ['_Ivory_Tower', '_Gulpers_Rock', '_Cave', 'accept', 'admit', 'attack', 'banner', 'behind', 'board', 'bribe', 'breed', 'build', 'buy', 'catch', 'claim', 'collect', 'contact', 'decree', 'default', 'defend', 'die', 'drop', 'email', 'execute', 'exhume', 'explore', 'fee', 'ferry', 'fish', 'flag', 'fly', 'forget', 'form', 'format', 'garrison', 'get', 'give', 'guard', 'honor', 'hostile', 'improve', 'lore', 'make', 'message', 'move', 'name', 'neutral', 'notab', 'oath', 'password', 'pay', 'pillage', 'players', 'pledge', 'post', 'press', 'promote', 'public', 'quarry', 'quest', 'quit', 'raze', 'recruit', 'repair', 'research', 'resend', 'rumor', 'sail', 'seek', 'sell', 'sneak', 'stack', 'stop', 'study', 'surrender', 'take', 'terrorize', 'train', 'ungarrison', 'unload', 'unstack', 'use', 'vis_email', 'wait', 'clear', 'day', 'turn', 'ferry', 'flag', 'fog', 'item', 'loc', 'not', 'owner', 'rain', 'ship', 'shiploc', 'stack', 'time', 'top', 'unit', 'wind', 'n', 'north', 's', 'south', 'w', 'west', 'e', 'east', 'in', 'out', 'Boduognat', 'Bullywug', 'Beowulf', 'Empirius', 'Satyr', 'Rudbert', 'Bigstick', 'Myka_Vykos', 'Skullthumper', 'Seven_fingers', 'Igor_the_Bonegrinder', 'Nepomucenos', 'Paolo_Giovanni', 'Mud', 'Frikky', 'Cain', 'Snake', 'Jinx', 'Didude', 'Banana_Nut', 'Dronte', 'Slook', 'Dreg', 'Hammer', 'Eternal', 'Bomber', 'Sloth', 'Glutony', 'Envy', 'Pride', 'Wrath', 'Passage', 'Rebellion', 'Bastard', 'Greed', 'Lust', 'Rakharo', 'Jhogo', 'Jaehaerys_Targaryen', 'Rhaegar_Targaryen', 'Strong_Belwas', 'Aerys_Targaryen', 'Drogo', 'Jorah_Mormont', 'Arstan_Whitebeard', 'Jaehaerys_Targaryen', 'Daenarys_Targaryen', 'Aegon_Targaryen', 'Rhaenys_Targaryen', 'Aemon_Targaryen', 'Jhiqui', 'Viserys_Targaryen', 'Illyrio_Mopatis', 'King_Bockor', 'Grunk', 'Braaggh', 'Korgul', 'Scrag', 'Drakk', 'Mord', 'Karash', 'Karak', 'Murk', 'Oomph', 'Claw', 'Gruumsh', 'Krusk', 'Azuul', 'Harhar', 'Ubada', 'Munguk_the_giant', 'Red_Kraken', 'Primal_Freegrazer', 'Yoshi_the_Gulper', 'Nightfury', 'Wolftail', 'Mighty_Wings', 'Doom_Dreadnaught', 'White_Spear', 'Horror_Show', 'Mouth_of_the_Devourer', 'Hard_Boiled', 'Cat_of_Purr', 'Black_Fangs', 'Feathersnake', 'Silent_Paw', 'Yu-Yu_the_Gloater', 'Totemizer', 'Dangerlight', 'Dread_Frog', 'Painful_Death', 'Souldrinker', 'Grim_Reaper', 'Pestilence', 'Famine', 'Conquest', "Satan's_Little_Helper_II", 'War', "Satan's_Little_Helper", 'Joris', 'Piet', 'David_Livingstone', 'Walking_Death', 'Ethan_Venge', 'Drago_Spatz', 'Sgt_York', 'Karl_Meckler', 'Jason_West', 'Carey_Bridger', 'John_Builder', 'Harlan_Brenach', 'Billy_Mack', 'Joe_Fish', 'Sgt_Rock', 'Jim_Nance', 'Yancy_James', 'Ziggy_Stardust', 'Jorj', 'Godzilla', 'Klaus', 'Jimmy_Dean', 'Emissary', 'Pen', 'Xen', 'Dude', 'Howl', 'Hasan', 'Talin', 'Full_of_Hot_Air', 'Seasick_dillo', 'Quadruplet_One', 'Stargazer', 'Clawer', 'Blizzard_Blown', 'Hairy_Screamer', 'Priodontes', 'Yepes_Mulita', 'Scout', 'Cold_Air_Blows_Hot', 'Bedazzled', 'Howler', 'Pichi_Reborn', 'Furball', 'Rory_McGrath', 'Alfred_Brehm', 'Lakshmi_Bai', 'Selma_Blair', 'Fafner_Pendragon', 'Walter_Raleigh', 'Arthur_Wellesley', 'Konrad_Zuse', 'Bernhard_Grzimek', 'Lee_Christmas', 'Phillip_Boa', 'Francisco_Coronado', 'all', 'gold', 'peasant', 'worker', 'soldier', 'archer', 'knight', 'elite_guard', 'pikeman', 'blessed_soldier', 'ghost_warrior', 'sailor', 'swordsman', 'crossbowman', 'elite_archer', 'angry_peasant', 'pirate', 'elf', 'spirit', 'undead', 'savage', 'skeleton', 'barbarian', 'wild_horse', 'riding_horse', 'warmount', 'winged_horse', 'nazgul', 'flotsam', 'battering_ram', 'catapult', 'siege_tower', 'ratspider_venom', 'lana_bark', 'avinia_leaf', 'spiny_root', 'farrenstone', 'yew', 'elfstone', 'mallorn_wood', 'pretus_bones', 'longbow', 'plate_armor', 'longsword', 'pike', 'ox', 'wood', 'stone', 'iron', 'leather', 'ratspider', 'mithril', 'gate_crystal', 'blank_scroll', 'crossbow', 'fish', 'opium', 'woven_basket', 'clay_pot', 'tax_cookie', 'drum', 'hide', 'mob_cookie', 'lead', 'pitch', 'centaur', 'minotaur', 'undead_cookie', 'fog_cookie', 'wind_cookie', 'rain_cookie', 'mage_menial_cookie', 'giant_spider', 'rat', 'lion', 'giant_bird', 'giant_lizard', 'bandit', 'chimera', 'harpie', 'dragon', 'orc', 'gorgon', 'wolf', 'crystal_orb', 'cyclops', 'giant', 'faery', 'petty_thief_cookie', 'hound', 'imperial_throne', 'crown_of_prosperity', 'skull_of_bastrestric', 'shipcraft', 'sailing', 'shipbuilding', 'fishing', 'combat', 'survive_fatal_wound', 'fight_to_the_death', 'construct_catapult', 'defense', 'archery', 'swordplay', 'weaponsmithing', 'stealth', 'petty_thievery', 'determine_inventory_of_character', 'determine_skills_of_character', "determine_character's_lord", 'conceal_faction', 'learn_of_richest_nearby_noble', 'torture_prisoner', 'sneak_into_structure', 'conceal_self', 'beastmastery', 'bird_spy', 'capture_beasts_in_battle', 'use_beasts_in_battle', 'breed_beasts', 'catch_wild_horses', 'train_wild_horse_to_riding_horse', 'train_wild_horse_to_warmount', 'summon_wild_men', 'persuade_wild_men_to_remain', 'breed_hound', 'persuasion', 'bribe_noble', 'persuade_oathbound_noble', 'raise_peasant_mob', 'rally_peasant_mob', 'incite_mob_violence', 'train_angry_peasants', 'construction', 'construct_siege_tower', 'stone_quarrying', 'alchemy', 'extract_venom_from_ratspider', 'make_potion_of_slavery', 'brew_healing_potion', 'brew_potion_of_death', 'record_skill_on_scroll', 'collect_rare_elements', 'turn_lead_into_gold', 'forestry', 'construct_battering_ram', 'harvest_lumber', 'harvest_yew', 'collect_rare_foliage', 'harvest_mallorn_wood', 'harvest_opium', 'improve_opium_production', 'mining', 'mine_iron', 'mine_gold', 'mine_mithril', 'trade', 'conceal_identity_of_trader', 'find_tradegood_for_sale', 'find_market_for_tradegood', 'religion', 'receive_vision', 'resurrect_dead_noble', 'preparatory_ritual', 'lay_to_rest', 'remove_blessing_from_soldiers', 'immunity_from_vision', 'magic', 'meditate', 'perform_common_tasks_for_gold', 'appear_common', 'view_current_aura_level_of_others', 'reveal_abilities_of_another_mage', 'tap_health_for_aura', 'heal', 'modern_magic_script', 'shroud_abilities_from_scry', 'detect_ability_scry', 'dispel_ability_shroud', 'advanced_meditation', 'hinder_meditation', 'weather_magic', 'fierce_wind', 'bind_storm_to_ship', 'scribe_weather_symbols', 'summon_rain', 'summon_wind', 'summon_fog', 'direct_storm', 'dissipate_storm', 'renew_storm_strength', 'lightning_bolt', 'seize_control_of_storm', 'fog_of_death', 'scrying', 'scry_location', 'shroud_location_from_magical_scry', 'dispel_location_shroud', 'ciphered_writing_of_areth-pirn', 'create_magical_barrier', 'remove_magical_barrier', 'locate_character', 'detect_location_scry', 'farcasting', 'save_farcast_state', 'banish_undead', 'gatecraft', 'teleport', 'detect_gates', 'jump_through_gate', 'seal_gate', 'unseal_gate_with_key', 'notify_if_gate_unsealed', 'forcefully_unseal_gate', 'reveal_gate_key', 'notify_of_gate_jumps', 'language_of_the_ancients', 'reverse_jump_through_gate', 'artifact_construction', 'forge_auraculum', 'reveal_creator_of_artifact', 'reveal_where_artifact_was_created', 'cloak_creator_of_artifact', 'cloak_region_of_artifact_creation', 'curse_noncreator_loyalty', 'forge_magical_weapon', 'forge_magical_armor', 'forge_magical_bow', 'dispel_cloaking_from_artifact', 'arcane_symbols', 'destroy_artifact', 'forge_palantir', 'necromancy', 'transcend_death', 'runes_of_evil', 'summon_ghost_warriors', 'raise_undead', 'summon_demon_lord', 'renew_demon_bond', 'banish_demon_lord', 'eating_of_the_dead', 'aura_blast', 'absorb_aura_blast', 'advanced_sorcery', 'trance', 'teleport_items']
-# '_Ivory_Tower', '_Gulpers_Rock', '_Cave', have been manually added
+aliaslist = ['accept', 'admit', 'attack', 'banner', 'behind', 'board', 'bribe', 'breed', 'build', 'buy', 'catch', 'claim', 'collect', 'contact', 'decree', 'default', 'defend', 'die', 'drop', 'email', 'execute', 'exhume', 'explore', 'fee', 'ferry', 'fish', 'flag', 'fly', 'forget', 'form', 'format', 'garrison', 'get', 'give', 'guard', 'honor', 'hostile', 'improve', 'lore', 'make', 'message', 'move', 'name', 'neutral', 'notab', 'oath', 'password', 'pay', 'pillage', 'players', 'pledge', 'post', 'press', 'promote', 'public', 'quarry', 'quest', 'quit', 'raze', 'recruit', 'repair', 'research', 'resend', 'rumor', 'sail', 'seek', 'sell', 'sneak', 'stack', 'stop', 'study', 'surrender', 'take', 'terrorize', 'train', 'ungarrison', 'unload', 'unstack', 'use', 'vis_email', 'wait', 'clear', 'day', 'turn', 'ferry', 'flag', 'fog', 'item', 'loc', 'not', 'owner', 'rain', 'ship', 'shiploc', 'stack', 'time', 'top', 'unit', 'wind', 'n', 'north', 's', 'south', 'w', 'west', 'e', 'east', 'in', 'out', 'Boduognat', 'Bullywug', 'Beowulf', 'Empirius', 'Satyr', 'Rudbert', 'Bigstick', 'Myka_Vykos', 'Skullthumper', 'Seven_fingers', 'Igor_the_Bonegrinder', 'Nepomucenos', 'Paolo_Giovanni', 'Mud', 'Frikky', 'Cain', 'Snake', 'Jinx', 'Didude', 'Banana_Nut', 'Dronte', 'Slook', 'Dreg', 'Hammer', 'Eternal', 'Bomber', 'Sloth', 'Glutony', 'Envy', 'Pride', 'Wrath', 'Passage', 'Rebellion', 'Bastard', 'Greed', 'Lust', 'Rakharo', 'Jhogo', 'Jaehaerys_Targaryen', 'Rhaegar_Targaryen', 'Strong_Belwas', 'Aerys_Targaryen', 'Drogo', 'Jorah_Mormont', 'Arstan_Whitebeard', 'Jaehaerys_Targaryen', 'Daenarys_Targaryen', 'Aegon_Targaryen', 'Rhaenys_Targaryen', 'Aemon_Targaryen', 'Jhiqui', 'Viserys_Targaryen', 'Illyrio_Mopatis', 'King_Bockor', 'Grunk', 'Braaggh', 'Korgul', 'Scrag', 'Drakk', 'Mord', 'Karash', 'Karak', 'Murk', 'Oomph', 'Claw', 'Gruumsh', 'Krusk', 'Azuul', 'Harhar', 'Ubada', 'Munguk_the_giant', 'Red_Kraken', 'Primal_Freegrazer', 'Yoshi_the_Gulper', 'Nightfury', 'Wolftail', 'Mighty_Wings', 'Doom_Dreadnaught', 'White_Spear', 'Horror_Show', 'Mouth_of_the_Devourer', 'Hard_Boiled', 'Cat_of_Purr', 'Black_Fangs', 'Feathersnake', 'Silent_Paw', 'Yu-Yu_the_Gloater', 'Totemizer', 'Dangerlight', 'Dread_Frog', 'Painful_Death', 'Souldrinker', 'Grim_Reaper', 'Pestilence', 'Famine', 'Conquest', "Satan's_Little_Helper_II", 'War', "Satan's_Little_Helper", 'Joris', 'Piet', 'David_Livingstone', 'Walking_Death', 'Ethan_Venge', 'Drago_Spatz', 'Sgt_York', 'Karl_Meckler', 'Jason_West', 'Carey_Bridger', 'John_Builder', 'Harlan_Brenach', 'Billy_Mack', 'Joe_Fish', 'Sgt_Rock', 'Jim_Nance', 'Yancy_James', 'Ziggy_Stardust', 'Jorj', 'Godzilla', 'Klaus', 'Jimmy_Dean', 'Emissary', 'Pen', 'Xen', 'Dude', 'Howl', 'Hasan', 'Talin', 'Full_of_Hot_Air', 'Seasick_dillo', 'Quadruplet_One', 'Stargazer', 'Clawer', 'Blizzard_Blown', 'Hairy_Screamer', 'Priodontes', 'Yepes_Mulita', 'Scout', 'Cold_Air_Blows_Hot', 'Bedazzled', 'Howler', 'Pichi_Reborn', 'Furball', 'Rory_McGrath', 'Alfred_Brehm', 'Lakshmi_Bai', 'Selma_Blair', 'Fafner_Pendragon', 'Walter_Raleigh', 'Arthur_Wellesley', 'Konrad_Zuse', 'Bernhard_Grzimek', 'Lee_Christmas', 'Phillip_Boa', 'Francisco_Coronado', 'all', 'gold', 'peasant', 'worker', 'soldier', 'archer', 'knight', 'elite_guard', 'pikeman', 'blessed_soldier', 'ghost_warrior', 'sailor', 'swordsman', 'crossbowman', 'elite_archer', 'angry_peasant', 'pirate', 'elf', 'spirit', 'undead', 'savage', 'skeleton', 'barbarian', 'wild_horse', 'riding_horse', 'warmount', 'winged_horse', 'nazgul', 'flotsam', 'battering_ram', 'catapult', 'siege_tower', 'ratspider_venom', 'lana_bark', 'avinia_leaf', 'spiny_root', 'farrenstone', 'yew', 'elfstone', 'mallorn_wood', 'pretus_bones', 'longbow', 'plate_armor', 'longsword', 'pike', 'ox', 'wood', 'stone', 'iron', 'leather', 'ratspider', 'mithril', 'gate_crystal', 'blank_scroll', 'crossbow', 'fish', 'opium', 'woven_basket', 'clay_pot', 'tax_cookie', 'drum', 'hide', 'mob_cookie', 'lead', 'pitch', 'centaur', 'minotaur', 'undead_cookie', 'fog_cookie', 'wind_cookie', 'rain_cookie', 'mage_menial_cookie', 'giant_spider', 'rat', 'lion', 'giant_bird', 'giant_lizard', 'bandit', 'chimera', 'harpie', 'dragon', 'orc', 'gorgon', 'wolf', 'crystal_orb', 'cyclops', 'giant', 'faery', 'petty_thief_cookie', 'hound', 'imperial_throne', 'crown_of_prosperity', 'skull_of_bastrestric', 'shipcraft', 'sailing', 'shipbuilding', 'fishing', 'combat', 'survive_fatal_wound', 'fight_to_the_death', 'construct_catapult', 'defense', 'archery', 'swordplay', 'weaponsmithing', 'stealth', 'petty_thievery', 'determine_inventory_of_character', 'determine_skills_of_character', "determine_character's_lord", 'conceal_faction', 'learn_of_richest_nearby_noble', 'torture_prisoner', 'sneak_into_structure', 'conceal_self', 'beastmastery', 'bird_spy', 'capture_beasts_in_battle', 'use_beasts_in_battle', 'breed_beasts', 'catch_wild_horses', 'train_wild_horse_to_riding_horse', 'train_wild_horse_to_warmount', 'summon_wild_men', 'persuade_wild_men_to_remain', 'breed_hound', 'persuasion', 'bribe_noble', 'persuade_oathbound_noble', 'raise_peasant_mob', 'rally_peasant_mob', 'incite_mob_violence', 'train_angry_peasants', 'construction', 'construct_siege_tower', 'stone_quarrying', 'alchemy', 'extract_venom_from_ratspider', 'make_potion_of_slavery', 'brew_healing_potion', 'brew_potion_of_death', 'record_skill_on_scroll', 'collect_rare_elements', 'turn_lead_into_gold', 'forestry', 'construct_battering_ram', 'harvest_lumber', 'harvest_yew', 'collect_rare_foliage', 'harvest_mallorn_wood', 'harvest_opium', 'improve_opium_production', 'mining', 'mine_iron', 'mine_gold', 'mine_mithril', 'trade', 'conceal_identity_of_trader', 'find_tradegood_for_sale', 'find_market_for_tradegood', 'religion', 'receive_vision', 'resurrect_dead_noble', 'preparatory_ritual', 'lay_to_rest', 'remove_blessing_from_soldiers', 'immunity_from_vision', 'magic', 'meditate', 'perform_common_tasks_for_gold', 'appear_common', 'view_current_aura_level_of_others', 'reveal_abilities_of_another_mage', 'tap_health_for_aura', 'heal', 'modern_magic_script', 'shroud_abilities_from_scry', 'detect_ability_scry', 'dispel_ability_shroud', 'advanced_meditation', 'hinder_meditation', 'weather_magic', 'fierce_wind', 'bind_storm_to_ship', 'scribe_weather_symbols', 'summon_rain', 'summon_wind', 'summon_fog', 'direct_storm', 'dissipate_storm', 'renew_storm_strength', 'lightning_bolt', 'seize_control_of_storm', 'fog_of_death', 'scrying', 'scry_location', 'shroud_location_from_magical_scry', 'dispel_location_shroud', 'ciphered_writing_of_areth-pirn', 'create_magical_barrier', 'remove_magical_barrier', 'locate_character', 'detect_location_scry', 'farcasting', 'save_farcast_state', 'banish_undead', 'gatecraft', 'teleport', 'detect_gates', 'jump_through_gate', 'seal_gate', 'unseal_gate_with_key', 'notify_if_gate_unsealed', 'forcefully_unseal_gate', 'reveal_gate_key', 'notify_of_gate_jumps', 'language_of_the_ancients', 'reverse_jump_through_gate', 'artifact_construction', 'forge_auraculum', 'reveal_creator_of_artifact', 'reveal_where_artifact_was_created', 'cloak_creator_of_artifact', 'cloak_region_of_artifact_creation', 'curse_noncreator_loyalty', 'forge_magical_weapon', 'forge_magical_armor', 'forge_magical_bow', 'dispel_cloaking_from_artifact', 'arcane_symbols', 'destroy_artifact', 'forge_palantir', 'necromancy', 'transcend_death', 'runes_of_evil', 'summon_ghost_warriors', 'raise_undead', 'summon_demon_lord', 'renew_demon_bond', 'banish_demon_lord', 'eating_of_the_dead', 'aura_blast', 'absorb_aura_blast', 'advanced_sorcery', 'trance', 'teleport_items']
 
 
 reprocessordict = {
@@ -125,8 +124,8 @@ reprocessordict = {
     "635":["conceal_faction","skill"],
     "636":["learn_of_richest_nearby_noble","skill"],
     "637":["torture_prisoner","skill"],
+    "638":["conceal_self","skill"], # adapted for G4
     "639":["sneak_into_structure","skill"],
-    "641":["conceal_self","skill"],
     "650":["beastmastery","skill"],
     "651":["bird_spy","skill"],
     "652":["capture_beasts_in_battle","skill"],
@@ -149,13 +148,13 @@ reprocessordict = {
     "681":["construct_siege_tower","skill"],
     "682":["stone_quarrying","skill"],
     "690":["alchemy","skill"],
-    "691":["extract_venom_from_ratspider","skill"],
-    "692":["make_potion_of_slavery","skill"],
-    "693":["brew_healing_potion","skill"],
-    "694":["brew_potion_of_death","skill"],
-    "695":["record_skill_on_scroll","skill"],
-    "696":["collect_rare_elements","skill"],
-    "697":["turn_lead_into_gold","skill"],
+    "691":["brew_healing_potion","skill"], # adapted for G4.
+    "692":["record_skill_on_scroll","skill"], # adapted for G4.
+    "693":["extract_venom_from_ratspider","skill"],# adapted for G4.
+    "694":["make_potion_of_slavery","skill"], # adapted for G4.
+    "695":["collect_rare_elements","skill"], # adapted for G4.
+    "696":["brew_potion_of_death","skill"], # adapted for G4.
+    "697":["turn_lead_into_gold","skill"], # adapted for G4.
     "700":["forestry","skill"],
     "701":["construct_battering_ram","skill"],
     "702":["harvest_lumber","skill"],
@@ -174,9 +173,9 @@ reprocessordict = {
     "733":["find_market_for_tradegood","skill"],
     "750":["religion","skill"],
     "751":["receive_vision","skill"],
-    "752":["resurrect_dead_noble","skill"],
-    "753":["preparatory_ritual","skill"],
-    "754":["lay_to_rest","skill"],
+    "752":["lay_to_rest","skill"], # adapted for G4.
+    "753":["preparatory_ritual","skill"], 
+    "754":["resurrect_dead_noble","skill"], # adapted for G4.
     "755":["remove_blessing_from_soldiers","skill"],
     "756":["immunity_from_vision","skill"],
     "800":["magic","skill"],
@@ -184,10 +183,10 @@ reprocessordict = {
     "802":["perform_common_tasks_for_gold","skill"],
     "803":["appear_common","skill"],
     "804":["view_current_aura_level_of_others","skill"],
-    "805":["reveal_abilities_of_another_mage","skill"],
-    "806":["tap_health_for_aura","skill"],
-    "807":["heal","skill"],
-    "808":["modern_magic_script","skill"],
+    "805":["heal","skill"], # adapted for G4.
+    "806":["modern_magic_script","skill"], # adapted for G4.
+    "807":["reveal_abilities_of_another_mage","skill"],# adapted for G4.
+    "808":["tap_health_for_aura","skill"],# adapted for G4.
     "809":["shroud_abilities_from_scry","skill"],
     "811":["detect_ability_scry","skill"],
     "812":["dispel_ability_shroud","skill"],
@@ -197,8 +196,8 @@ reprocessordict = {
     "821":["fierce_wind","skill"],
     "822":["bind_storm_to_ship","skill"],
     "823":["scribe_weather_symbols","skill"],
-    "824":["summon_rain","skill"],
-    "825":["summon_wind","skill"],
+    "824":["summon_wind","skill"], # adapted for G4.
+    "825":["summon_rain","skill"], # adapted for G4.
     "826":["summon_fog","skill"],
     "827":["direct_storm","skill"],
     "828":["dissipate_storm","skill"],
@@ -208,9 +207,9 @@ reprocessordict = {
     "833":["fog_of_death","skill"],
     "840":["scrying","skill"],
     "841":["scry_location","skill"],
-    "842":["shroud_location_from_magical_scry","skill"],
-    "843":["dispel_location_shroud","skill"],
-    "844":["ciphered_writing_of_areth-pirn","skill"],
+    "842":["ciphered_writing_of_areth-pirn","skill"], # adapted for G4.
+    "843":["shroud_location_from_magical_scry","skill"],# adapted for G4.
+    "844":["dispel_location_shroud","skill"], # adapted for G4.
     "845":["create_magical_barrier","skill"],
     "846":["remove_magical_barrier","skill"],
     "847":["locate_character","skill"],
@@ -219,42 +218,42 @@ reprocessordict = {
     "851":["save_farcast_state","skill"],
     "852":["banish_undead","skill"],
     "860":["gatecraft","skill"],
-    "861":["teleport","skill"],
-    "862":["detect_gates","skill"],
-    "863":["jump_through_gate","skill"],
+    "861":["detect_gates","skill"], # adapted for G4.
+    "862":["jump_through_gate","skill"],# adapted for G4.
+    "863":["language_of_the_ancients","skill"],
     "864":["seal_gate","skill"],
     "865":["unseal_gate_with_key","skill"],
     "866":["notify_if_gate_unsealed","skill"],
     "867":["forcefully_unseal_gate","skill"],
     "868":["reveal_gate_key","skill"],
     "869":["notify_of_gate_jumps","skill"],
-    "871":["language_of_the_ancients","skill"],
+    "871":["teleport","skill"], # adapted for G4.
     "872":["reverse_jump_through_gate","skill"],
     "880":["artifact_construction","skill"],
-    "881":["forge_auraculum","skill"],
-    "882":["reveal_creator_of_artifact","skill"],
-    "883":["reveal_where_artifact_was_created","skill"],
-    "884":["cloak_creator_of_artifact","skill"],
-    "885":["cloak_region_of_artifact_creation","skill"],
-    "886":["curse_noncreator_loyalty","skill"],
-    "887":["forge_magical_weapon","skill"],
-    "888":["forge_magical_armor","skill"],
-    "889":["forge_magical_bow","skill"],
-    "891":["dispel_cloaking_from_artifact","skill"],
-    "892":["arcane_symbols","skill"],
-    "893":["destroy_artifact","skill"],
+    "881":["forge_auraculum","skill"], # adapted for G4.
+    "882":["arcane_symbols","skill"], # adapted for G4.
+    "883":["forge_magical_weapon","skill"], # adapted for G4.
+    "884":["forge_magical_armor","skill"], # adapted for G4.
+    "885":["forge_magical_bow","skill"], # adapted for G4.
+    "886":["curse_noncreator_loyalty","skill"], # adapted for G4.
+    "887":["reveal_creator_of_artifact","skill"], # adapted for G4.
+    "888":["reveal_where_artifact_was_created","skill"],
+    "889":["destroy_artifact","skill"], # adapted for G4.
+    "891":["cloak_creator_of_artifact","skill"], # adapted for G4.
+    "892":["cloak_region_of_artifact_creation","skill"], # adapted for G4.
+    "893":["dispel_cloaking_from_artifact","skill"],
     "894":["forge_palantir","skill"],
     "900":["necromancy","skill"],
-    "901":["transcend_death","skill"],
-    "902":["runes_of_evil","skill"],
-    "903":["summon_ghost_warriors","skill"],
-    "904":["raise_undead","skill"],
-    "905":["summon_demon_lord","skill"],
-    "906":["renew_demon_bond","skill"],
-    "907":["banish_demon_lord","skill"],
-    "908":["eating_of_the_dead","skill"],
-    "909":["aura_blast","skill"],
-    "911":["absorb_aura_blast","skill"],
+    "901":["raise_undead","skill"], # adapted for G4.
+    "902":["summon_ghost_warriors","skill"], # adapted for G4.
+    "903":["runes_of_evil","skill"], # adapted for G4.
+    "904":["summon_demon_lord","skill"], # adapted for G4.
+    "905":["renew_demon_bond","skill"], # adapted for G4.
+    "906":["banish_demon_lord","skill"], # adapted for G4.
+    "907":["eating_of_the_dead","skill"], # adapted for G4.
+    "908":["aura_blast","skill"], # adapted for G4.
+    "919":["absorb_aura_blast","skill"],     # adapted for G4.
+    "901":["transcend_death","skill"], # adapted for G4.
     "920":["advanced_sorcery","skill"],
     "921":["trance","skill"],
     "922":["teleport_items","skill"]
@@ -262,169 +261,24 @@ reprocessordict = {
 
 
 preprocessordict = {
-    # locations, added manually
-    "_Ivory_Tower":["8276","location"], # new
-    "_Gulpers_Rock":["6766","location"], # new
-    "_Cave":["n130","location"], # new
+    # locations (added manually)
+    # ---------
     
-    # ALLIANCE NOBLES of turn 59
-    "Boduognat":["7754","noble"],
-    "Bullywug":["9770","noble"],
-    "Beowulf":["6094","noble"],
-    "Empirius":["3955","noble"],
-    "Satyr":["9595","noble"],
-    "Rudbert":["4794","noble"],
-    "Bigstick":["7568","noble"],
-    "Myka_Vykos":["5996","noble"],
-    "Skullthumper":["4880","noble"],
-    "Seven_fingers":["6862","noble"],
-    "Igor_the_Bonegrinder":["3699","noble"],
-    "Nepomucenos":["8176","noble"],
-    "Paolo_Giovanni":["1577","noble"],
-    "Mud":["2902","noble"],
-    "Frikky":["3527","noble"],
-    "Cain":["4180","noble"],
-    "Snake":["1291","noble"],
-    "Jinx":["3633","noble"],
-    "Didude":["4455","noble"],
-    "Banana_Nut":["6624","noble"],
-    "Dronte":["7689","noble"],
-    "Slook":["7311","noble"],
-    "Dreg":["6338","noble"],
-    "Hammer":["8258","noble"],
-    "Eternal":["3683","noble"],
-    "Bomber":["4988","noble"],
-    "Sloth":["2415","noble"],
-    "Glutony":["4164","noble"],
-    "Envy":["7786","noble"],
-    "Pride":["8073","noble"],
-    "Wrath":["8143","noble"],
-    "Passage":["6823","noble"],
-    "Rebellion":["7508","noble"],
-    "Bastard":["8864","noble"],
-    "Greed":["7504","noble"],
-    "Lust":["3284","noble"],
-    "Rakharo":["9465","noble"],
-    "Jhogo":["1295","noble"],
-    "Jaehaerys_Targaryen":["7716","noble"],
-    "Rhaegar_Targaryen":["2297","noble"],
-    "Strong_Belwas":["5544","noble"],
-    "Aerys_Targaryen":["8702","noble"],
-    "Drogo":["6646","noble"],
-    "Jorah_Mormont":["7161","noble"],
-    "Arstan_Whitebeard":["7809","noble"],
-    "Jaehaerys_Targaryen":["7116","noble"],
-    "Daenarys_Targaryen":["6307","noble"],
-    "Aegon_Targaryen":["6457","noble"],
-    "Rhaenys_Targaryen":["6735","noble"],
-    "Aemon_Targaryen":["6040","noble"],
-    "Jhiqui":["4093","noble"],
-    "Viserys_Targaryen":["7688","noble"],
-    "Illyrio_Mopatis":["2782","noble"],
-    "King_Bockor":["4175","noble"],
-    "Grunk":["5539","noble"],
-    "Braaggh":["8651","noble"],
-    "Korgul":["4270","noble"],
-    "Scrag":["6341","noble"],
-    "Drakk":["7213","noble"],
-    "Mord":["1276","noble"],
-    "Karash":["5014","noble"],
-    "Karak":["5118","noble"],
-    "Murk":["4405","noble"],
-    "Oomph":["2920","noble"],
-    "Claw":["1251","noble"],
-    "Gruumsh":["4720","noble"],
-    "Krusk":["9264","noble"],
-    "Azuul":["6169","noble"],
-    "Harhar":["6992","noble"],
-    "Ubada":["2875","noble"],
-    "Munguk_the_giant":["1534","noble"],
-    "Red_Kraken":["4221","noble"],
-    "Primal_Freegrazer":["4830","noble"],
-    "Yoshi_the_Gulper":["6406","noble"],
-    "Nightfury":["4073","noble"],
-    "Wolftail":["8942","noble"],
-    "Mighty_Wings":["8079","noble"],
-    "Doom_Dreadnaught":["6759","noble"],
-    "White_Spear":["2107","noble"],
-    "Horror_Show":["2200","noble"],
-    "Mouth_of_the_Devourer":["2962","noble"],
-    "Hard_Boiled":["5625","noble"],
-    "Cat_of_Purr":["9515","noble"],
-    "Black_Fangs":["5726","noble"],
-    "Feathersnake":["5649","noble"],
-    "Silent_Paw":["1592","noble"],
-    "Yu-Yu_the_Gloater":["4471","noble"],
-    "Totemizer":["7328","noble"],
-    "Dangerlight":["7769","noble"],
-    "Dread_Frog":["4535","noble"],
-    "Painful_Death":["1216","noble"],
-    "Souldrinker":["4478","noble"],
-    "Grim_Reaper":["9145","noble"],
-    "Pestilence":["9100","noble"],
-    "Famine":["6893","noble"],
-    "Conquest":["6102","noble"],
-    "Satan's_Little_Helper_II":["9184","noble"],
-    "War":["1233","noble"],
-    "Satan's_Little_Helper":["6493","noble"],
-    "Joris":["2330","noble"],
-    "Piet":["3327","noble"],
-    "David_Livingstone":["6923","noble"],
-    "Walking_Death":["3825","noble"],
-    "Ethan_Venge":["6910","noble"],
-    "Drago_Spatz":["4625","noble"],
-    "Sgt_York":["7558","noble"],
-    "Karl_Meckler":["7763","noble"],
-    "Jason_West":["6054","noble"],
-    "Carey_Bridger":["3296","noble"],
-    "John_Builder":["3246","noble"],
-    "Harlan_Brenach":["4645","noble"],
-    "Billy_Mack":["4363","noble"],
-    "Joe_Fish":["3243","noble"],
-    "Sgt_Rock":["8661","noble"],
-    "Jim_Nance":["7432","noble"],
-    "Yancy_James":["5393","noble"],
-    "Ziggy_Stardust":["6612","noble"],
-    "Jorj":["2791","noble"],
-    "Godzilla":["1683","noble"],
-    "Klaus":["1460","noble"],
-    "Jimmy_Dean":["6111","noble"],
-    "Emissary":["2880","noble"],
-    "Pen":["9643","noble"],
-    "Xen":["3053","noble"],
-    "Dude":["8721","noble"],
-    "Howl":["6991","noble"],
-    "Hasan":["4744","noble"],
-    "Talin":["6859","noble"],
-    "Full_of_Hot_Air":["5905","noble"],
-    "Seasick_dillo":["7908","noble"],
-    "Quadruplet_One":["9805","noble"],
-    "Stargazer":["2767","noble"],
-    "Clawer":["5876","noble"],
-    "Blizzard_Blown":["6009","noble"],
-    "Hairy_Screamer":["5090","noble"],
-    "Priodontes":["3059","noble"],
-    "Yepes_Mulita":["3842","noble"],
-    "Scout":["4361","noble"],
-    "Cold_Air_Blows_Hot":["5066","noble"],
-    "Bedazzled":["4934","noble"],
-    "Howler":["6524","noble"],
-    "Pichi_Reborn":["6219","noble"],
-    "Furball":["5514","noble"],
-    "Rory_McGrath":["4827","noble"],
-    "Alfred_Brehm":["6235","noble"],
-    "Lakshmi_Bai":["5094","noble"],
-    "Selma_Blair":["9178","noble"],
-    "Fafner_Pendragon":["5558","noble"],
-    "Walter_Raleigh":["7331","noble"],
-    "Arthur_Wellesley":["8378","noble"],
-    "Konrad_Zuse":["8498","noble"],
-    "Bernhard_Grzimek":["1418","noble"],
-    "Lee_Christmas":["1429","noble"],
-    "Phillip_Boa":["8167","noble"],
-    "Francisco_Coronado":["1652","noble"],
+    # e.g.: "_Ivory_Tower":["8276","location"],
+
+    # ALLIANCE NOBLES
+    # ---------------
+
+    # function cut out for G4, as alliance scripts are not included.
+    # nobles can still be added manually.
+
+    # e.g.: "Yoshi_the_Gulper":["6406","noble"],
+    
     # END OF ALLIANCE NOBLES
+
+    
     #items
+    #-----
     "all":["0","item"],
     "gold":["1","item"],
     "peasant":["10","item"],

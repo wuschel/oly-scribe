@@ -1,9 +1,9 @@
 # wuscheln@googlemail.com
 # Scribe of the Ivory Tower
-# Order Preprocessor for Olympia G3
-# v017 - Second Edition
+# Order Preprocessor for Olympia G4
+# v018 
 
-scribeversion = 17
+scribeversion = 18
 
 import webbrowser
 from Tkinter import * 
@@ -19,7 +19,7 @@ from olyG3_transcribedata import dictionary_version
 
 
 
-transscriber_version = "Second Edition r1"
+transscriber_version = "2r1"
 
 
 
@@ -68,8 +68,7 @@ class ScrolledText(Frame):
 
 
 class SimpleEditor(ScrolledText):                        
-    def __init__(self, parent=None, file=None):
-        # added from: http://stackoverflow.com/questions/2395431/using-tkinter-in-python-to-edit-the-title-bar
+    def __init__(self, parent=None, file=None):      
         self.root = Tk()                                    
         self.root.title("Olympia SCRIBE v"+str(scribeversion)+" - "+str(dictionary_version[1]))
         # ----
@@ -86,7 +85,9 @@ class SimpleEditor(ScrolledText):
         Button(frm, text='Clean Comments', bg="darkgrey", command=self.onClean).pack(side=LEFT)
         
         Button(frm, text='About',  command=self.onAbout).pack(side=LEFT)
-        Button(frm, text='Rules',  command=self.onRules).pack(side=LEFT)       
+        Button(frm, text='Rules',  command=self.onRules).pack(side=LEFT)
+        Button(frm, text='Skills',  command=self.onSkills).pack(side=LEFT)
+        Button(frm, text='Orders',  command=self.onOrdersRules).pack(side=LEFT)   
 
         ScrolledText.__init__(self, parent, file=file) 
         self.text.config(font=('courier', 8, 'normal'))
@@ -163,9 +164,9 @@ class SimpleEditor(ScrolledText):
         # display message
 
         w1 = Label(win, text="\n\nSCRIBE", font=("Helvetica", 16))
-        w2 = Label(win, text="for Olympia G3", fg="black")
+        w2 = Label(win, text="for Olympia G4", fg="black")
         w3 = Label(win, text="version "+str(scribeversion), fg="red")
-        w4 = Label(win, text="(c) 2011 Piotr, wuscheln@googlemail.com \n\n", fg="blue")
+        w4 = Label(win, text="(c) 2011 Piotr\n\n", fg="blue")
         w5 = Label(win, text="IVORY TOWER R&D", fg="black")
         w6 = Label(win, text=manualtext, anchor=W, justify=LEFT, font=("Courier", 9))
         w1.pack()
@@ -179,10 +180,18 @@ class SimpleEditor(ScrolledText):
         Button(win, text='OK', command=win.destroy).pack()
 
     def onRules(self):
-        webbrowser.open_new("http://olympia.v-labs.be/g3/book/export/html/11")
+        webbrowser.open_new("http://www.shadowlandgames.com/olympia/rules.html")
+
+    def onSkills(self):
+        webbrowser.open_new("http://www.shadowlandgames.com/olympia/skills.html")
+
+    def onOrdersRules(self):
+        webbrowser.open_new("http://www.shadowlandgames.com/olympia/orders.html")
+
+        
 
 
-    # More complicated functins here..
+    # More complicated functions here..
     def onCheck(self):
             print "\n\n\nBwahahaah! Who needs order checking?! The IVORY TOWER shall always prevail..\n\n"
 
@@ -341,7 +350,7 @@ if __name__ == '__main__':
         -- input of non-numerical order/item/skill commands       
            and preprocessing of pre-orders to game orders
            i.e. "study summon_demon_lord" -> "study 905"
-        -- removal of game comments
+        -- removal of game/order template comments
         -- open/save functions
 
         Quick and dirty manual:
@@ -353,7 +362,8 @@ if __name__ == '__main__':
         - hit space to paste selected keyword into orders,
           even if theword is not finished.
         - finish orders.
-        - Transcribe and remove comments (optional)
+        - Transcribe and remove comments (in case you use
+          a tool to generate enhanced templates)
         - report any bugs :)
 
     Cheers!
