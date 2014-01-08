@@ -11,7 +11,7 @@ The program has two main features:
 
 - entry game orders in *semi-human language* with the help of a **autocompletion** function. Hit *space* to autocomplete a word.
 - **transcribe** the entered orders to Olympia order format 
-- **copy all** copies the entire text into the buffer memory. In order to selectively copy a part of the orders you need to mark the specific text before pressing the copy button. 
+
 
 Example: 
 
