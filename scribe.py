@@ -78,7 +78,7 @@ class SimpleEditor(ScrolledText):
         Button(frm, text='Save',  command=self.onSave).pack(side=LEFT)
         Button(frm, text='Find',  command=self.onFind).pack(side=LEFT)
         Button(frm, text='Cut',   command=self.onCut).pack(side=LEFT)
-        Button(frm, text='Copy all',   command=self.onCopyAll).pack(side=LEFT)
+        Button(frm, text='Copy',   command=self.onCopyAll).pack(side=LEFT)
         Button(frm, text='Paste', command=self.onPaste).pack(side=LEFT)
         #Button(frm, text='Check', bg="yellow", command=self.onCheck).pack(side=LEFT)      
         Button(frm, text='Transcribe orders', bg="green", command=self.onPreprocess).pack(side=LEFT)
