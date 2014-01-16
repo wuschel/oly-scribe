@@ -5,7 +5,7 @@ dictionary_version = ["Olympia G4", "Dictionary of turn #1"]
 # need to update the whole dict once in a while.. nobles, etc.
 # also, 401, 402,403 have been added and not added to the main dictionary yet.
 
-aliaslist = ['accept', 'admit', 'attack', 'banner', 'behind', 'board', 'bribe', 'breed', 'build', 'buy', 'catch', 'claim', 'collect', 'contact', 'decree', 'default', 'defend', 'die', 'drop', 'email', 'execute', 'exhume', 'explore', 'fee', 'ferry', 'fish', 'flag', 'fly', 'forget', 'form', 'format', 'garrison', 'get', 'give', 'guard', 'honor', 'hostile', 'improve', 'lore', 'make', 'message', 'move', 'name', 'neutral', 'notab', 'oath', 'password', 'pay', 'pillage', 'players', 'pledge', 'post', 'press', 'promote', 'public', 'quarry', 'quest', 'quit', 'raze', 'recruit', 'repair', 'research', 'resend', 'rumor', 'sail', 'seek', 'sell', 'sneak', 'stack', 'stop', 'study', 'surrender', 'take', 'terrorize', 'train', 'ungarrison', 'unload', 'unstack', 'use', 'vis_email', 'wait', 'clear', 'day', 'turn', 'ferry', 'flag', 'fog', 'item', 'loc', 'not', 'owner', 'rain', 'ship', 'shiploc', 'stack', 'time', 'top', 'unit', 'wind', 'n', 'north', 's', 'south', 'w', 'west', 'e', 'east', 'in', 'out', 'Boduognat', 'Bullywug', 'Beowulf', 'Empirius', 'Satyr', 'Rudbert', 'Bigstick', 'Myka_Vykos', 'Skullthumper', 'Seven_fingers', 'Igor_the_Bonegrinder', 'Nepomucenos', 'Paolo_Giovanni', 'Mud', 'Frikky', 'Cain', 'Snake', 'Jinx', 'Didude', 'Banana_Nut', 'Dronte', 'Slook', 'Dreg', 'Hammer', 'Eternal', 'Bomber', 'Sloth', 'Glutony', 'Envy', 'Pride', 'Wrath', 'Passage', 'Rebellion', 'Bastard', 'Greed', 'Lust', 'Rakharo', 'Jhogo', 'Jaehaerys_Targaryen', 'Rhaegar_Targaryen', 'Strong_Belwas', 'Aerys_Targaryen', 'Drogo', 'Jorah_Mormont', 'Arstan_Whitebeard', 'Jaehaerys_Targaryen', 'Daenarys_Targaryen', 'Aegon_Targaryen', 'Rhaenys_Targaryen', 'Aemon_Targaryen', 'Jhiqui', 'Viserys_Targaryen', 'Illyrio_Mopatis', 'King_Bockor', 'Grunk', 'Braaggh', 'Korgul', 'Scrag', 'Drakk', 'Mord', 'Karash', 'Karak', 'Murk', 'Oomph', 'Claw', 'Gruumsh', 'Krusk', 'Azuul', 'Harhar', 'Ubada', 'Munguk_the_giant', 'Red_Kraken', 'Primal_Freegrazer', 'Yoshi_the_Gulper', 'Nightfury', 'Wolftail', 'Mighty_Wings', 'Doom_Dreadnaught', 'White_Spear', 'Horror_Show', 'Mouth_of_the_Devourer', 'Hard_Boiled', 'Cat_of_Purr', 'Black_Fangs', 'Feathersnake', 'Silent_Paw', 'Yu-Yu_the_Gloater', 'Totemizer', 'Dangerlight', 'Dread_Frog', 'Painful_Death', 'Souldrinker', 'Grim_Reaper', 'Pestilence', 'Famine', 'Conquest', "Satan's_Little_Helper_II", 'War', "Satan's_Little_Helper", 'Joris', 'Piet', 'David_Livingstone', 'Walking_Death', 'Ethan_Venge', 'Drago_Spatz', 'Sgt_York', 'Karl_Meckler', 'Jason_West', 'Carey_Bridger', 'John_Builder', 'Harlan_Brenach', 'Billy_Mack', 'Joe_Fish', 'Sgt_Rock', 'Jim_Nance', 'Yancy_James', 'Ziggy_Stardust', 'Jorj', 'Godzilla', 'Klaus', 'Jimmy_Dean', 'Emissary', 'Pen', 'Xen', 'Dude', 'Howl', 'Hasan', 'Talin', 'Full_of_Hot_Air', 'Seasick_dillo', 'Quadruplet_One', 'Stargazer', 'Clawer', 'Blizzard_Blown', 'Hairy_Screamer', 'Priodontes', 'Yepes_Mulita', 'Scout', 'Cold_Air_Blows_Hot', 'Bedazzled', 'Howler', 'Pichi_Reborn', 'Furball', 'Rory_McGrath', 'Alfred_Brehm', 'Lakshmi_Bai', 'Selma_Blair', 'Fafner_Pendragon', 'Walter_Raleigh', 'Arthur_Wellesley', 'Konrad_Zuse', 'Bernhard_Grzimek', 'Lee_Christmas', 'Phillip_Boa', 'Francisco_Coronado', 'all', 'gold', 'peasant', 'worker', 'soldier', 'archer', 'knight', 'elite_guard', 'pikeman', 'blessed_soldier', 'ghost_warrior', 'sailor', 'swordsman', 'crossbowman', 'elite_archer', 'angry_peasant', 'pirate', 'elf', 'spirit', 'undead', 'savage', 'skeleton', 'barbarian', 'wild_horse', 'riding_horse', 'warmount', 'winged_horse', 'nazgul', 'flotsam', 'battering_ram', 'catapult', 'siege_tower', 'ratspider_venom', 'lana_bark', 'avinia_leaf', 'spiny_root', 'farrenstone', 'yew', 'elfstone', 'mallorn_wood', 'pretus_bones', 'longbow', 'plate_armor', 'longsword', 'pike', 'ox', 'wood', 'stone', 'iron', 'leather', 'ratspider', 'mithril', 'gate_crystal', 'blank_scroll', 'crossbow', 'fish', 'opium', 'woven_basket', 'clay_pot', 'tax_cookie', 'drum', 'hide', 'mob_cookie', 'lead', 'pitch', 'centaur', 'minotaur', 'undead_cookie', 'fog_cookie', 'wind_cookie', 'rain_cookie', 'mage_menial_cookie', 'giant_spider', 'rat', 'lion', 'giant_bird', 'giant_lizard', 'bandit', 'chimera', 'harpie', 'dragon', 'orc', 'gorgon', 'wolf', 'crystal_orb', 'cyclops', 'giant', 'faery', 'petty_thief_cookie', 'hound', 'imperial_throne', 'crown_of_prosperity', 'skull_of_bastrestric', 'shipcraft', 'sailing', 'shipbuilding', 'fishing', 'combat', 'survive_fatal_wound', 'fight_to_the_death', 'construct_catapult', 'defense', 'archery', 'swordplay', 'weaponsmithing', 'stealth', 'petty_thievery', 'determine_inventory_of_character', 'determine_skills_of_character', "determine_character's_lord", 'conceal_faction', 'learn_of_richest_nearby_noble', 'torture_prisoner', 'sneak_into_structure', 'conceal_self', 'beastmastery', 'bird_spy', 'capture_beasts_in_battle', 'use_beasts_in_battle', 'breed_beasts', 'catch_wild_horses', 'train_wild_horse_to_riding_horse', 'train_wild_horse_to_warmount', 'summon_wild_men', 'persuade_wild_men_to_remain', 'breed_hound', 'persuasion', 'bribe_noble', 'persuade_oathbound_noble', 'raise_peasant_mob', 'rally_peasant_mob', 'incite_mob_violence', 'train_angry_peasants', 'construction', 'construct_siege_tower', 'stone_quarrying', 'alchemy', 'extract_venom_from_ratspider', 'make_potion_of_slavery', 'brew_healing_potion', 'brew_potion_of_death', 'record_skill_on_scroll', 'collect_rare_elements', 'turn_lead_into_gold', 'forestry', 'construct_battering_ram', 'harvest_lumber', 'harvest_yew', 'collect_rare_foliage', 'harvest_mallorn_wood', 'harvest_opium', 'improve_opium_production', 'mining', 'mine_iron', 'mine_gold', 'mine_mithril', 'trade', 'conceal_identity_of_trader', 'find_tradegood_for_sale', 'find_market_for_tradegood', 'religion', 'receive_vision', 'resurrect_dead_noble', 'preparatory_ritual', 'lay_to_rest', 'remove_blessing_from_soldiers', 'immunity_from_vision', 'magic', 'meditate', 'perform_common_tasks_for_gold', 'appear_common', 'view_current_aura_level_of_others', 'reveal_abilities_of_another_mage', 'tap_health_for_aura', 'heal', 'modern_magic_script', 'shroud_abilities_from_scry', 'detect_ability_scry', 'dispel_ability_shroud', 'advanced_meditation', 'hinder_meditation', 'weather_magic', 'fierce_wind', 'bind_storm_to_ship', 'scribe_weather_symbols', 'summon_rain', 'summon_wind', 'summon_fog', 'direct_storm', 'dissipate_storm', 'renew_storm_strength', 'lightning_bolt', 'seize_control_of_storm', 'fog_of_death', 'scrying', 'scry_location', 'shroud_location_from_magical_scry', 'dispel_location_shroud', 'ciphered_writing_of_areth-pirn', 'create_magical_barrier', 'remove_magical_barrier', 'locate_character', 'detect_location_scry', 'farcasting', 'save_farcast_state', 'banish_undead', 'gatecraft', 'teleport', 'detect_gates', 'jump_through_gate', 'seal_gate', 'unseal_gate_with_key', 'notify_if_gate_unsealed', 'forcefully_unseal_gate', 'reveal_gate_key', 'notify_of_gate_jumps', 'language_of_the_ancients', 'reverse_jump_through_gate', 'artifact_construction', 'forge_auraculum', 'reveal_creator_of_artifact', 'reveal_where_artifact_was_created', 'cloak_creator_of_artifact', 'cloak_region_of_artifact_creation', 'curse_noncreator_loyalty', 'forge_magical_weapon', 'forge_magical_armor', 'forge_magical_bow', 'dispel_cloaking_from_artifact', 'arcane_symbols', 'destroy_artifact', 'forge_palantir', 'necromancy', 'transcend_death', 'runes_of_evil', 'summon_ghost_warriors', 'raise_undead', 'summon_demon_lord', 'renew_demon_bond', 'banish_demon_lord', 'eating_of_the_dead', 'aura_blast', 'absorb_aura_blast', 'advanced_sorcery', 'trance', 'teleport_items']
+aliaslist = ['accept', 'admit', 'attack', 'banner', 'behind', 'board', 'bribe', 'breed', 'build', 'buy', 'catch', 'claim', 'collect', 'contact', 'decree', 'default', 'defend', 'die', 'drop', 'email', 'execute', 'exhume', 'explore', 'fee', 'ferry', 'fish', 'flag', 'fly', 'forget', 'form', 'format', 'garrison', 'get', 'give', 'guard', 'honor', 'hostile', 'improve', 'lore', 'make', 'message', 'move', 'name', 'neutral', 'notab', 'oath', 'password', 'pay', 'pillage', 'players', 'pledge', 'post', 'press', 'promote', 'public', 'quarry', 'quest', 'quit', 'raze', 'recruit', 'repair', 'research', 'resend', 'rumor', 'sail', 'seek', 'sell', 'sneak', 'stack', 'stop', 'study', 'surrender', 'take', 'terrorize', 'train', 'ungarrison', 'unload', 'unstack', 'use', 'vis_email', 'wait', 'clear', 'day', 'turn', 'ferry', 'flag', 'fog', 'item', 'loc', 'not', 'owner', 'rain', 'ship', 'shiploc', 'stack', 'time', 'top', 'unit', 'wind', 'n', 'north', 's', 'south', 'w', 'west', 'e', 'east', 'in', 'out', 'all', 'gold', 'peasant', 'worker', 'soldier', 'archer', 'knight', 'elite_guard', 'pikeman', 'blessed_soldier', 'ghost_warrior', 'sailor', 'swordsman', 'crossbowman', 'elite_archer', 'angry_peasant', 'pirate', 'elf', 'spirit', 'undead', 'savage', 'skeleton', 'barbarian', 'wild_horse', 'riding_horse', 'warmount', 'winged_horse', 'nazgul', 'flotsam', 'battering_ram', 'catapult', 'siege_tower', 'ratspider_venom', 'lana_bark', 'avinia_leaf', 'spiny_root', 'farrenstone', 'yew', 'elfstone', 'mallorn_wood', 'pretus_bones', 'longbow', 'plate_armor', 'longsword', 'pike', 'ox', 'wood', 'stone', 'iron', 'leather', 'ratspider', 'mithril', 'gate_crystal', 'blank_scroll', 'crossbow', 'fish', 'opium', 'woven_basket', 'clay_pot', 'tax_cookie', 'drum', 'hide', 'mob_cookie', 'lead', 'pitch', 'centaur', 'minotaur', 'undead_cookie', 'fog_cookie', 'wind_cookie', 'rain_cookie', 'mage_menial_cookie', 'giant_spider', 'rat', 'lion', 'giant_bird', 'giant_lizard', 'bandit', 'chimera', 'harpie', 'dragon', 'orc', 'gorgon', 'wolf', 'crystal_orb', 'cyclops', 'giant', 'faery', 'petty_thief_cookie', 'hound', 'imperial_throne', 'crown_of_prosperity', 'skull_of_bastrestric', 'shipcraft', 'sailing', 'shipbuilding', 'fishing', 'combat', 'survive_fatal_wound', 'fight_to_the_death', 'construct_catapult', 'defense', 'archery', 'swordplay', 'weaponsmithing', 'stealth', 'petty_thievery', 'determine_inventory_of_character', 'determine_skills_of_character', "determine_character's_lord", 'conceal_faction', 'learn_of_richest_nearby_noble', 'torture_prisoner', 'sneak_into_structure', 'conceal_self', 'beastmastery', 'bird_spy', 'capture_beasts_in_battle', 'use_beasts_in_battle', 'breed_beasts', 'catch_wild_horses', 'train_wild_horse_to_riding_horse', 'train_wild_horse_to_warmount', 'summon_wild_men', 'persuade_wild_men_to_remain', 'breed_hound', 'persuasion', 'bribe_noble', 'persuade_oathbound_noble', 'raise_peasant_mob', 'rally_peasant_mob', 'incite_mob_violence', 'train_angry_peasants', 'construction', 'construct_siege_tower', 'stone_quarrying', 'alchemy', 'extract_venom_from_ratspider', 'make_potion_of_slavery', 'brew_healing_potion', 'brew_potion_of_death', 'record_skill_on_scroll', 'collect_rare_elements', 'turn_lead_into_gold', 'forestry', 'construct_battering_ram', 'harvest_lumber', 'harvest_yew', 'collect_rare_foliage', 'harvest_mallorn_wood', 'harvest_opium', 'improve_opium_production', 'mining', 'mine_iron', 'mine_gold', 'mine_mithril', 'trade', 'conceal_identity_of_trader', 'find_tradegood_for_sale', 'find_market_for_tradegood', 'religion', 'receive_vision', 'resurrect_dead_noble', 'preparatory_ritual', 'lay_to_rest', 'remove_blessing_from_soldiers', 'immunity_from_vision', 'magic', 'meditate', 'perform_common_tasks_for_gold', 'appear_common', 'view_current_aura_level_of_others', 'reveal_abilities_of_another_mage', 'tap_health_for_aura', 'heal', 'modern_magic_script', 'shroud_abilities_from_scry', 'detect_ability_scry', 'dispel_ability_shroud', 'advanced_meditation', 'hinder_meditation', 'weather_magic', 'fierce_wind', 'bind_storm_to_ship', 'scribe_weather_symbols', 'summon_rain', 'summon_wind', 'summon_fog', 'direct_storm', 'dissipate_storm', 'renew_storm_strength', 'lightning_bolt', 'seize_control_of_storm', 'fog_of_death', 'scrying', 'scry_location', 'shroud_location_from_magical_scry', 'dispel_location_shroud', 'ciphered_writing_of_areth-pirn', 'create_magical_barrier', 'remove_magical_barrier', 'locate_character', 'detect_location_scry', 'farcasting', 'save_farcast_state', 'banish_undead', 'gatecraft', 'teleport', 'detect_gates', 'jump_through_gate', 'seal_gate', 'unseal_gate_with_key', 'notify_if_gate_unsealed', 'forcefully_unseal_gate', 'reveal_gate_key', 'notify_of_gate_jumps', 'language_of_the_ancients', 'reverse_jump_through_gate', 'artifact_construction', 'forge_auraculum', 'reveal_creator_of_artifact', 'reveal_where_artifact_was_created', 'cloak_creator_of_artifact', 'cloak_region_of_artifact_creation', 'curse_noncreator_loyalty', 'forge_magical_weapon', 'forge_magical_armor', 'forge_magical_bow', 'dispel_cloaking_from_artifact', 'arcane_symbols', 'destroy_artifact', 'forge_palantir', 'necromancy', 'transcend_death', 'runes_of_evil', 'summon_ghost_warriors', 'raise_undead', 'summon_demon_lord', 'renew_demon_bond', 'banish_demon_lord', 'eating_of_the_dead', 'aura_blast', 'absorb_aura_blast', 'advanced_sorcery', 'trance', 'teleport_items']
 
 
 reprocessordict = {
@@ -530,10 +530,8 @@ preprocessordict = {
     "advanced_sorcery":["920","skill"],
     "trance":["921","skill"],
     "teleport_items":["922","skill"]
-
-  
-
     }
+    # END OF TRANSCRIPTION DICT
 
 
 
@@ -568,8 +566,8 @@ def processstring(astring):
 
 if __name__ == '__main__':
 
-    testing = 0
-    if testing == 1:
+    simpletesting = 0
+    if simpletesting == 1:
         processstring("Hello")
         processstring("give 9394 peasant all")
         processstring("use receive_vision 3849")
@@ -578,9 +576,6 @@ if __name__ == '__main__':
         processstring("use fight_to_the_death 1")
         processstring("Mouth_of_the_Devourer")
         processstring("study breed_hound")
-
-        # more tests..
-
         print str(preprocessordict["breed_hound"])
 
 
@@ -588,17 +583,14 @@ if __name__ == '__main__':
 
     manual = 0
     if manual == 1:
-
         for i in range(0,1000):
             if str(i) in reprocessordict:
                 print reprocessordict[str(i)][1]+" "+str(i)+" "+reprocessordict[str(i)][0]
         
 
-
-
-    compile_aliasorderlist = 1
-    
+    compile_aliasorderlist = 0
     if compile_aliasorderlist == 1:
+        # This section is supposed to work with custom alliance scripts that manage templates, reports, etc
         
         orderaliaslist = ['accept', 'admit', 'attack', 'banner', 'behind', 'board', 'bribe', 'breed', 'build', 'buy', 'catch', 'claim', 'collect', 'contact', 'decree', 'default', 'defend', 'die', 'drop', 'email', 'execute', 'exhume', 'explore', 'fee', 'ferry', 'fish', 'flag', 'fly', 'forget', 'form', 'format', 'garrison', 'get', 'give', 'guard', 'honor', 'hostile', 'improve', 'lore', 'make', 'message', 'move', 'name', 'neutral', 'notab', 'oath', 'password', 'pay', 'pillage', 'players', 'pledge', 'post', 'press', 'promote', 'public', 'quarry', 'quest', 'quit', 'raze', 'recruit', 'repair', 'research', 'resend', 'rumor', 'sail', 'seek', 'sell', 'sneak', 'stack', 'stop', 'study', 'surrender', 'take', 'terrorize', 'train', 'ungarrison', 'unload', 'unstack', 'use', 'vis_email', 'wait']
         # print len(orderaliaslist)
@@ -616,18 +608,4 @@ if __name__ == '__main__':
         print aliaslist
 
 
-
-
-
-# study research order checker can be easy I.e. must be of study XXX code and may habe a second paramter
-# give order can be checked in similar way.
-# How can this be done? Include arguments in a third list element and check it?
-
-#distinguish between item and troop and beast
-# give all could check the inventory line, or even read in the turn report to be smarter.
-
-# specials:
-#   giveall_riding
-#   giveall_humans
-#   giveall_beasts
     

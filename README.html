@@ -1,0 +1,179 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>README</title></head><body><h2 id="oly-scribe">oly-scribe</h2>
+<p>is a quick and dirty order entry helper for the play by email game Olympia (<a href="http://www.pbm.com/oly/" title="Olympia PBEM">http://www.pbm.com/oly/</a>) and its latest incarnation Olympia G4 (<a href="http://www.shadowlandgames.com/olympia/" title="Olympia G4">http://www.shadowlandgames.com/olympia/</a>). As this program has been frankensteined from some python libs in a super quick manner, dont expect it to be perfect in matters of code and functionality. But it did its job very well.  At last, no more need to memorize these terrible game order codes! </p>
+<h3 id="software-requirements">Software requirements</h3>
+<p>It has been developed for the game <em>Olympia G4</em> and Python 2.7x, but should be easily adaptable for other flavours of the game like <em>Olympia: The Age of Gods (TAG)</em>. </p>
+<h3 id="features-ultra-quick-manual">Features &amp; ultra quick manual</h3>
+<p>Install Python 2.7x, grab the source code from the github page 
+(<a href="https://github.com/wuschel/oly-scribe" title="Olympia Scribe">https://github.com/wuschel/oly-scribe</a>) and run the program <em>scribe.py</em>.</p>
+<p>The program has two main features: </p>
+<ul>
+<li>entry game orders in <em>semi-human language</em> with the help of a <strong>autocompletion</strong> function. Hit <em>space</em> to autocomplete a word.</li>
+<li><strong>transcribe</strong> the entered orders to Olympia order format </li>
+</ul>
+<p>Example: </p>
+<pre><code>unit 2321 # [2321] John the demonstration Noble
+# This is a comment. John will give Yoshi the Gulper all dragons. 
+# And do some more stuff.
+# This could be a fancy order template (not integrated yet).
+study ciphered_writing_of_areth-pirn
+give Yoshi_the_Gulper dragon 2
+take Yoshi_the_Gulper gold all 
+message "Glory to the Ivory Tower!" 
+give garrison gate_crystal all 
+explore 
+breed centaur centaur 
+move n
+move west 
+claim riding_horse 1
+quarry 5
+collect wood 5
+</code></pre>
+<p>After hitting <em>transcibe</em>, these are translated into Olympia order language. You can also cut away comments by using the <em>Clean Comments</em> function.</p>
+<pre><code>unit 2321 # [2321] John the demonstration Noble 
+study 844 
+give Yoshi_the_Gulper 286 2 
+take Yoshi_the_Gulper 1 0 
+message "Glory to the Ivory Tower!" 
+give garrison 83 0 
+explore 
+breed 271 271 
+move n 
+move west 
+claim 52 1 
+quarry 5 
+collect 77 5
+</code></pre>
+<p>It is also possible to transcribe noble names into IDs. However, these must be present in the <em>olyG3_transcribedata.py</em> dictionary. <strong>Note:</strong> It is advised to delete the old noble names from the dictionary.</p>
+<h3 id="issues">Issues</h3>
+<ul>
+<li>
+<p>there is a problem with "wood" beeing converted to <em>77</em> while being a at the same time. use "COLLECT wood" to avoid this problem.</p>
+</li>
+<li>
+<p>the keyword transcription does not stop from transcribing messages, rumours and times articles. </p>
+</li>
+</ul>
+<h3 id="licence">Licence</h3>
+<p>It is free as that air that we breathe - but check the python licence (<a href="http://docs.python.org/2/license.html" title="Python license">http://docs.python.org/2/license.html</a>) to be 100% sure. Hack away! (:</p></body></html>

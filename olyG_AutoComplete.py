@@ -19,9 +19,9 @@ ID_CHARS = string.ascii_letters + string.digits + "_"
 COMPLETE_ATTRIBUTES, COMPLETE_FILES = range(1, 2+1)
 
 #import AutoCompleteWindow
-import olyG3_AutoCompleteWindow
+import olyG_AutoCompleteWindow
 from idlelib.HyperParser import HyperParser
-from olyG3_transcribedata import aliaslist
+from olyG_transcribedata import aliaslist
 
 import __main__
 
@@ -55,7 +55,7 @@ class AutoComplete:
         self._delayed_completion_index = None
 
     def _make_autocomplete_window(self):
-        return olyG3_AutoCompleteWindow.AutoCompleteWindow(self.text)
+        return olyG_AutoCompleteWindow.AutoCompleteWindow(self.text)
 
     def _remove_autocomplete_window(self, event=None):
         if self.autocompletewindow:

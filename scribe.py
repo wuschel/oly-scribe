@@ -3,7 +3,7 @@
 # Order Preprocessor for Olympia G4
 # v018 
 
-scribeversion = 18
+scribeversion = 19
 
 import webbrowser
 from Tkinter import * 
@@ -11,10 +11,10 @@ from tkSimpleDialog import askstring
 from tkFileDialog   import asksaveasfilename
 from tkFileDialog   import askopenfilename
 from tkMessageBox import askokcancel
-from olyG3_AutoComplete import AutoComplete
-from olyG3_transcribedata import preprocessordict
-from olyG3_transcribedata import reprocessordict
-from olyG3_transcribedata import dictionary_version
+from olyG_AutoComplete import AutoComplete
+from olyG_transcribedata import preprocessordict
+from olyG_transcribedata import reprocessordict
+from olyG_transcribedata import dictionary_version
 
 
 

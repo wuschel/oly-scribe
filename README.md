@@ -7,6 +7,9 @@ It has been developed for the game *Olympia G4* and Python 2.7x, but should be e
 
 
 ### Features & ultra quick manual
+Install Python 2.7x, grab the source code from the github page 
+([https://github.com/wuschel/oly-scribe](https://github.com/wuschel/oly-scribe "Olympia Scribe")) and run the program *scribe.py*.
+
 The program has two main features: 
 
 - entry game orders in *semi-human language* with the help of a **autocompletion** function. Hit *space* to autocomplete a word.
