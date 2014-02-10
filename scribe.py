@@ -1,9 +1,9 @@
 # wuscheln@googlemail.com
 # Scribe of the Ivory Tower
 # Order Preprocessor for Olympia G4
-# v018 
 
-scribeversion = 19
+
+scribeversion = 20
 
 import webbrowser
 from Tkinter import * 
