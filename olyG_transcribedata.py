@@ -566,6 +566,16 @@ def processstring(astring):
 
 if __name__ == '__main__':
 
+    recompile_preprocessdict_from_reprocess = 1
+    if recompile_preprocessdict_from_reprocess == 1:
+        for key in reprocessordict:
+            print "\""+reprocessordict[key][0]+"\":[\""+key+"\","+reprocessordict[key][1]+"\"],"
+
+            
+
+
+    
+
     simpletesting = 0
     if simpletesting == 1:
         processstring("Hello")
